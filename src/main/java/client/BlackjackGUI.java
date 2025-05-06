@@ -1,6 +1,5 @@
 package client;
 
-import java.awt.Component;
 import java.awt.Dialog;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -9,19 +8,16 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
-
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
@@ -34,8 +30,8 @@ public class BlackjackGUI extends JFrame {
     
 
     private String BASE_URL = "http://localhost:8080/api/blackjack";
-    private String USERNAME = "jspacco";
-    private String PASSWORD = "12347";
+    private String USERNAME = "vtang";
+    private String PASSWORD = "3fe1c42";
     private ClientConnecter clientConnecter;
 
     private CardPanel cardPanel;
